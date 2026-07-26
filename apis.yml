@@ -1,9 +1,30 @@
 aid: detect-technologies
 name: Detect Technologies
-description: 'Detect Technologies is a company surfaced as a portfolio company of prosus-ventures and
-  added to the API Evangelist network as a stub for enrichment. Sector: ai. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: >-
+  Detect Technologies is an industrial AI company founded in 2016 and
+  headquartered in Chennai, India, focused on transforming workplace safety,
+  security, productivity, and asset inspections across asset-intensive
+  industries such as oil and gas, steel, manufacturing, and energy. Its flagship
+  platform, T-Pulse, is an AI-powered Health, Safety and Environment (HSE)
+  management system that aggregates data from cameras, sensors, equipment, and
+  processes to deliver near real-time risk and efficiency insights through
+  computer vision and machine learning. The T-Pulse suite spans Workplace
+  Safety, Workplace Operations, Workplace Inspections, and Workplace Security
+  modules, complemented by predictive maintenance and turnaround (STO)
+  orchestration capabilities. Detect Technologies is backed by Prosus Ventures.
 url: https://raw.githubusercontent.com/api-evangelist/detect-technologies/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://detecttechnologies.com/wp-content/uploads/2023/10/home-technologies-watermark.png
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
@@ -12,10 +33,17 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
 - Ai
+- Industrial AI
+- Computer Vision
+- Workplace Safety
+- Manufacturing
+- HSE
+- Asset Inspection
+- IoT
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,5 +51,24 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/detect-technologies-domain-security.yml
 - type: Website
   url: https://detecttechnologies.com
+- type: Blog
+  url: https://detecttechnologies.com/resources/
+- type: Support
+  url: https://detecttechnologies.com/contact-us/
+- type: GitHubOrganization
+  url: https://github.com/detecttechnologies
+- type: TermsOfService
+  url: https://detecttechnologies.com/detect-cms/terms/
+- type: PrivacyPolicy
+  url: https://detecttechnologies.com/privacy-policy/
+- type: LLMsTxt
+  url: llms/detect-technologies-llms.txt
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
